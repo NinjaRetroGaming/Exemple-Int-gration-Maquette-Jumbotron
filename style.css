@@ -1,0 +1,238 @@
+* {
+  color: black;
+  font-family: inherit, sans-serif;
+}
+
+body {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+  "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji",
+  "Segoe UI Emoji","Segoe UI Symbol";
+  margin: 0;
+}
+
+/* Barre de Navigation */
+nav {
+  background-color: rgba(52 58 64);
+  position: fixed;
+  display: flex;
+  width: 2000px;
+  height: 56px;
+}
+
+.Navbar{
+  margin-top: 16px;
+  margin-left: 20px;
+}
+
+#menu_horizontal {
+  margin-left: -28px;
+}
+
+ul, li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  width: 180px;
+}
+
+.Link {
+  color: rgb(151,151,151);
+}
+
+.Link:hover {
+  color: rgb(209,209,209);
+}
+
+.Disabled {
+  color: rgb(95,95,95);
+}
+
+.dropbtn {
+   background-color: transparent;
+   color:rgb(151, 151, 151);
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+
+.dropbtn:hover{
+   color:rgb(209,209,209);
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9
+;
+   width: 200px;
+   height:150px;
+   box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+
+.dropdown-content a {
+   color: black;
+   text-decoration: none;
+   display: block;
+}
+
+.dropdown-content a:hover {
+   background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+a {
+  color: white;
+  text-decoration: none; 
+}
+
+.Search_Form {
+  margin-top: 8px;
+  margin-left: 984px;
+  display: flex;
+  width: auto;
+  vertical-align: middle;
+  padding-bottom: 8px;
+  position: fixed;
+  right: 10px;
+}
+
+.Barre {
+  font-family: inherit;
+  margin-right: .5rem !important;
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.Search {
+    color: #28a745;
+    background-color: transparent;
+    border-color: #28a745;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+.Search:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+/* SITE */
+#Hello_World {
+  background-color: rgba(233 236 239);
+  padding-top: 50px;
+  height: 350px;
+  width: auto;
+  height: auto;
+  padding-bottom: 66px;
+}
+
+#contain {
+  margin-right: 200px;
+  margin-top: 66px;
+  margin-left: 15%;
+}
+
+span {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.Template {
+  color: black;
+}
+
+.Title {
+  color: black;
+}
+
+.Learn_More {
+    padding: .5rem 1rem;
+    color: white;
+    background-color: rgba(0 105 217);
+    border-color: rgba(0 105 217);
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.Learn_More:hover {
+  background-color: rgba(0 99 206);
+}
+
+.Heading {
+    margin-left: 15%;
+    box-sizing: border-box;
+}
+
+.col-md-4 {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 360px;
+  max-height: 210px;
+}
+
+h2 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 2rem;
+}
+
+.View_details {
+  color: #fff;
+  background-color: #868e96;
+  border-color: #868e96;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+}
+
+.hr {
+  opacity: 0.1;
+  margin-top: 100px;
+  margin-left: 204px;
+  margin-right: 86px;
+}
+
+.text {
+  margin-left: 203px;
+  margin-top: 14px;
+}
+/* FOOTER */
+footer {
+  margin-left: 195px;
+  margin-right: 280px;
+}
+
+/* MEDIA QUERIES*/
+@media screen and (max-width:600px) {
+  #Hello_World #contain {
+    margin-left: 15px;
+  }
+}
